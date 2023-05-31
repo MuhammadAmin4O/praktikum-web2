@@ -88,6 +88,19 @@ if ($_SESSION['username'] == '') {
                         case "user-update";
                             include "../user/user_update.php";
                             break;
+                            // matakuliah
+                        case "matakuliah-add";
+                            include "../matakuliah/matakuliah_add.php";
+                            break;
+                        case "matakuliah-show";
+                            include "../matakuliah/matakuliah_show.php";
+                            break;
+                        case "matakuliah-edit";
+                            include "../matakuliah/matakuliah_edit.php";
+                            break;
+                        case "matakuliah-update";
+                            include "../matakuliah/matakuliah_update.php";
+                            break;
                         default:
                             include "dashboard.php";
                             break;
